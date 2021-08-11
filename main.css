@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('fonts/gilroy-bold.eot');
+	src: url('fonts/gilroy-bold.woff') format('woff'),
+    url('fonts/gilroy-bold.ttf') format('truetype'), 
+    url('fonts/gilroy-bold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('fonts/gilroy-medium.eot');
+	src: url('fonts/gilroy-medium.woff') format('woff'),
+    url('fonts/gilroy-medium.ttf') format('truetype'),
+    url('fonts/gilroy-medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+.container {
+    width: 943.61px;
+    margin: 0 auto;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.top-menu a {
+    text-decoration: none;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-transform: capitalize;
+    padding: 32px;
+    
+}
+.top-menu__element:hover {
+    color: #070707;
+}
+.head-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px; 
+}
+.head-text__element._name {
+    font-family: "Gilroy-Bold";
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+.head-text__element._prof {
+font-family: "Gilroy-Medium";
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+.head-text__element._lang {
+font-family: "Gilroy-Bold";
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+transform: rotate(-90deg);
+align-items: center;
+}
+.slider {
+    padding-top: 50px;
+    padding-bottom: 105px;
+}
+.about  {
+    background-color: #F6F6F6;
+    height: 506px;
+}
+.about__title {
+    padding: 120px 0 17.7px 0;
+}
+.same-title {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.about__text p {
+    margin: 43px 0px 43px 0px;
+}
+.about-me {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.skillz__title{
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 91px;
+}
+.skillz__text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 69px;
+}
+.boxes {
+    padding: 83.5px 0 110px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio   {
+    background: #F6F6F6 no-repeat 100% 100%;
+}
+.portfolio__title {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding: 113px 0 47px 0;
+}
+.portfolio__work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.descr {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 45px;
+}
+.same-text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.portfolio__work._next {
+    margin-top: 99px;
+}
+.descr._lst {
+    padding: 54px 0 96px 0;
+}
+.footer {
+    background: #FFFFFF;
+}
+.container-last {
+    width: 342px;
+    margin: 0 auto;
+}
+.bottom-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__title {
+    padding-top: 114px;
+}
+.send-msg {
+    width: 180px;
+    height: 42px;
+    border-radius: 25px;
+    background: #070707;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;  
+}
+.footer__text   {
+    padding-top: 20px;
+}
+.footer__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    padding-top: 85px;
+}
+.footer__button {
+    padding-top: 30px;
+}
+.footer__element {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding: 45px 0 123px 0;
+}
