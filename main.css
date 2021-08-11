@@ -130,6 +130,7 @@ align-items: center;
 }
 .box__stars {
     display: flex;
+    width: 166px;
     justify-content: space-between;
 }
 .portfolio   {
