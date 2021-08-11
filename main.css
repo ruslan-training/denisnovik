@@ -121,10 +121,16 @@ align-items: center;
     justify-content: space-between;
 }
 .box {
+    width: 166px;
+    height: 206px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.box__stars {
+    display: flex;
+    justify-content: space-between;
 }
 .portfolio   {
     background: #F6F6F6 no-repeat 100% 100%;
@@ -205,11 +211,13 @@ align-items: center;
 .footer__button {
     padding-top: 30px;
 }
-.footer__element {
+.footer__element {    
+    padding: 45px 0 123px 0;
+}
+.grey {
     font-family: "Gilroy-Medium";
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #828282;
-    padding: 45px 0 123px 0;
 }
