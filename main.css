@@ -72,8 +72,21 @@
         justify-content: space-between;
         padding: 65px 30px 30px 30px;
     }
-
-}
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider {
+        display: flex;
+        justify-content: center;
+    }
+    .container-last {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+}   
 .container {
     width: 943.61px;
     margin: 0 auto;
