@@ -269,6 +269,7 @@ align-items: center;
     text-align: center;
     color: #FFFFFF;
     border: none;  
+    cursor: pointer;
 }
 .footer__text   {
     padding-top: 20px;
@@ -281,6 +282,7 @@ align-items: center;
 }
 .footer__button {
     padding-top: 30px;
+    
 }
 .footer__element {    
     padding: 45px 0 123px 0;
