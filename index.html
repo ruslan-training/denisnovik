@@ -5,173 +5,246 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>denisnovik</title>
 </head>
 <body>
-    <div class="wrap">
-        <div class="header">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/script.js"></script>
+   <div class="wrapper">
+        <header class="header">
             <div class="container">
+                <div class="top-menu">
+                    <a href="" class="top-menu__link">home</a>
+                    <a href="" class="top-menu__link">about me</a>
+                    <a href="" class="top-menu__link">skills</a>
+                    <a href="" class="top-menu__link">portfolio</a>
+                    <a href="" class="top-menu__link">contacts</a>
+                </div>
                 <div class="head">
-                    <div class="top-menu">
-                        <a href="#" class="top-menu__element">home</a>
-                        <a href="#" class="top-menu__element">about me</a>
-                        <a href="#" class="top-menu__element">skills</a>
-                        <a href="#" class="top-menu__element">portfolio</a>
-                        <a href="#" class="top-menu__element">contacts</a> 
-                    </div>
-                    <div class="new-menu">
-                        <div class="head-text">
-                            <div class="head-text__element _name">Denis<br>
-                                Novik</div>
-                            <div class="head-text__element _prof">UX | UI designer<br>
-                                24 years old, Minsk</div>
-                            <div class="head-text__element _lang">
-                                RUS | ENG</div>
-                        </div>
-                        <div class="top-menu__burger">
+                    <div class="adaptive-head">
+                        <div class="head__name">Denis<br>
+                            Novik</div>
+                        <div class="head__prof t1822">UX | UI designer<br>
+                            24 years old, Minsk</div>
+                        <div class="head__lang">RU | ENG</div>
+                    </div>  
+
+                        <div class="header__burger">
                             <span></span>
-                            <ul class="new-menu__window">
-                                <li class="new-menu__element">home</li>
-                                <li class="new-menu__element">about me</li>
-                                <li class="new-menu__element">skills</li>
-                                <li class="new-menu__element">portfolio</li>
-                                <li class="new-menu__element">contacts</li>
-                            </ul>
                         </div>
-                        
-                    </div>        
+                        <nav class="adaptive-menu">
+                            <ul class="adaptive-menu__list t3442">
+                                <li><a href="" class="adaptive-menu__link">home</a></li>
+                                <li><a href="" class="adaptive-menu__link">about me</a></li>
+                                <li><a href="" class="adaptive-menu__link">skills</a></li>
+                                <li><a href="" class="adaptive-menu__link">portfolio</a></li>
+                                <li><a href="" class="adaptive-menu__link">contacts</a></li>
+                            </ul>  
+                        </nav>            
                 </div>
-                <div class="slider">
-                    <picture>
-                        <source srcset="img/16.png" media="(max-width: 767px)">
-                        <img src="img/01.png" alt="">
-                    </picture>  
-                </div>
+                
             </div>
-            <div class="about">
-                <div class="container">
-                    <div class="who-am-i">    
-                        <div class="about__title same-title">About me</div>
-                        <div class="about__text">
-                            <p class="about-me">Hi, I'm Denis – UX/UI designer from Minsk.<br>
-                                I'm interested in design and everything connected with it.</p>
-                            <p class="about-me">I'm studying at courses "Web and mobile design <Br>
-                                interfaces" in IT-Academy.</p>
-                            <p class="about-me">Ready to implement excellent projects<br>
-                                with wonderful people.</p>
-                        </div>
-                        </div> 
-                    </div>        
-                </div>    
-            </div>
+        </header>
+        <div class="slider">
             <div class="container">
-                <div class="skill-box">
-                    <div class="skillz__title same-title">Skills</div>
-                    <div class="skillz__text">I work in such programs as</div>
-                    <div class="boxes">
-                        <div class="box _ps">
+                <div class="content-img">
+                    <picture>
+                        <source srcset="img/16.png" media="(max-width:576px)" >
+                        <img src="img/01.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="about-body">
+            <div class="container">
+                <div class="about">
+                    <div class="about__title t3442">About me</div>
+                    <div class="about__text t1822">
+                        <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                        I'm interested in design and everything connected with it.</p>
+                            
+                        <p>I'm studying at courses "Web and mobile design <br>
+                        interfaces" in IT-Academy.</p>
+                            
+                        <p>Ready to implement excellent projects<br>
+                         with wonderful people.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-body">
+            <div class="container">
+                <div class="skills">
+                    <div class="skills__title t3442">Skills</div>
+                    <div class="skills__text t1822">I work in such programs as</div>
+                    <div class="skills__boxes">
+                        <div class="box">
                             <div class="box__icon">
                                 <img src="img/03.svg" alt="">
                             </div>
-                            <div class="box__text grey">Adobe <br>
+                            <div class="box__text">Adobe
                                 Photoshop</div>
                             <div class="box__stars">
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/14.png" alt=""></div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/07.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="box _ai">
+                        <div class="box">
                             <div class="box__icon">
                                 <img src="img/02.svg" alt="">
                             </div>
-                            <div class="box__text grey">Adobe <br>
+                            <div class="box__text">Adobe 
                                 Illustrator</div>
                             <div class="box__stars">
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/14.png" alt=""></div>
-                                <div class="star"><img src="img/14.png" alt=""></div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/07.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/07.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="box _ae">
+                        <div class="box">
                             <div class="box__icon">
                                 <img src="img/04.svg" alt="">
                             </div>
-                            <div class="box__text grey">Adobe <br>
+                            <div class="box__text">Adobe 
                                 After Effects</div>
                             <div class="box__stars">
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/14.png" alt=""></div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/07.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="box _fi">
+                        <div class="box">
                             <div class="box__icon">
                                 <img src="img/05.svg" alt="">
                             </div>
-                            <div class="box__text grey">Figma</div>
+                            <div class="box__text">Figma</div>
                             <div class="box__stars">
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/13.png" alt=""></div>
-                                <div class="star"><img src="img/14.png" alt=""></div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/06.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/07.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>    
-            </div>
-                <div class="portfolio">
-                    <div class="container">
-                        <div class="portfolio__title same-title">Portfolio</div>
-                        <div class="portfolio__work">
-                            <div class="example">
-                                <img src="img/06.png" alt="">
-                            </div>
-                            <div class="descr sametext">Online fashion store - Homepage</div>
-                        </div>
-                        <div class="portfolio__work _next">
-                            <div class="example">
-                                <img src="img/07.png" alt="">
-                            </div>
-                            <div class="descr sametext">Reebok Store - Concept</div>
-                        </div>
-                        <div class="portfolio__work _next">
-                            <div class="example">
-                                <img src="img/08.png" alt="">
-                            </div>
-                            <div class="descr sametext _lst">Braun Landing Page - Concept</div>
-                    </div>
-                </div> 
-            </div>     
-                <div class="footer">
-                    <div class="container-last">
-                        <div class="bottom-menu">
-                            <div class="footer__title same-title">Contacts</div>
-                            <div class="footer__text same-text">Want to know more or just chat? 
-                                You are welcome!</div>
-                            <div class="footer__button">
-                                <button class="send-msg">Send message</button>
-                            </div>
-                            <div class="footer__socials">
-                                <a href="#"><img src="img/09.png" alt=""></a>
-                                <a href="#"><img src="img/10.png" alt=""></a>
-                                <a href="#"><img src="img/11.png" alt=""></a>
-                                <a href="#"><img src="img/12.png" alt=""></a>
-                            </div>
-                            <div class="footer__element grey">Like me on
-                                LinkedIn, Instagram, Behance, Dribble</div>
-                        </div>        
-                           
-                </div>   
+                </div>
             </div>
         </div>
+        <div class="portfolio-body">
+            <div class="container">
+                <div class="portfolio">
+                    <div class="portfolio__title t3442">Portfolio</div>
+                </div>
+                <div class="protfolio__content">
+                    <div class="example">
+                        <div class="example__icon">
+                            <picture>
+                                <source srcset="img/16.svg" media="(max-width:576px)">
+                                <img src="img/06.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="example__text">Online fashion store - Homepage</div>
+                    </div>
+                    <div class="example">
+                        <div class="example__icon">
+                            <picture>
+                                <source srcset="img/17.svg" media="(max-width:576px)">
+                                <img src="img/07.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="example__text">Reebok Store - Concept</div>
+                    </div>
+                    <div class="example">
+                        <div class="example__icon">
+                            <picture>
+                                <source srcset="img/18.svg" media="(max-width:576px)">
+                                <img src="img/08.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="example__text">Braun Landing Page - Concept</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-body">
+            <div class="container2">
+                <div class="footer-menu">
+                    
+                        <div class="footer-menu__title t3442">Contacts</div>
+                        <div class="footer-menu__text t1822">Want to know more or just chat? 
+                            You are welcome!</div>
+                        <div class="footer-menu__button">
+                            <button class="msg">Send message</button>
+                        </div>
+                     
+                    
+                        <div class="footer-menu__find-me">
+                            <div class="social">
+                                <a href="#"><img src="img/09.png" alt=""></a>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="img/10.png" alt=""></a>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="img/11.png" alt=""></a>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="img/12.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="footer-menu__like">Like me on
+                            LinkedIn, Instagram, Behance, Dribble</div>
+                        </div>
+                     
+            </div>
+        </div>
+   </div>
     
 </body>
 </html>

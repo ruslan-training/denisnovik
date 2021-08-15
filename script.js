@@ -1,0 +1,4 @@
+        $('.header__burger').click(function(event) {
+        $('.header__burger,.adaptive-menu').toggleClass('active');
+        $('.body').toggleClass('lock');
+    });
