@@ -73,6 +73,10 @@
     color: #828282;
     transform: translate(26px, -32px) rotate(-90deg);
 }
+.head__lang a {
+    text-decoration: none;
+    color: #828282;
+}
 .t1822 {
 font-family: "Gilroy-Medium";
 font-size: 18px;
