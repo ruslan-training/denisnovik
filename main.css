@@ -45,6 +45,9 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+.top-menu__link:hover {
+    color: #070707;
+}
 .adaptive-menu {
     display: none;
 }
